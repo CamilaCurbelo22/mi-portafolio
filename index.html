@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://cdn-icons-png.flaticon.com/512/2922/2922572.png" rel="shortcut icon">
+    <title>Camila Curbelo | Portafolio</title>
+
+    <script>
+    function mostrarVentanaEmergente() {
+        alert("Mensaje enviado.");
+    }
+    </script>
+</head>
+
+<body>
+
+    <button onclick="location.href='https://github.com/CamilaCurbelo22'" id="git" class="botones"target="_blank">Mi GitHub</button>
+    <button onclick="location.href='proyectos.html'" id="projects" class="botones"target="_blank">Mis proyectos</button>
+
+        <img src="avatar.jpeg" alt="avatar" id="avatar" class="avatar">
+
+        <div>
+
+        <h1 id="yom"  class="quiensoy">Camila Curbelo</h1>
+        <p class="quiensoy">Me gusta canalizar mi lado creativo diseñando y mi lado lógico programando.</p>
+        <p class="quiensoy">Estoy en camino a convertirme en Frontend Developer en Uruguay. </p>
+
+        </div>
+
+        <div class="color">
+
+        <h1>Formación</h1>
+
+
+
+<div class="content">
+    <div class="column"> 
+        <h2 class="titles">Jóvenes a programar (JaP) | Ceibal</h2> 
+            <ul>
+                <li>Desarrollo web</li>
+                <li>Competencias transversales</li>
+                <li>Inglés</li>
+            </ul>
+            <p>ACTUALMENTE</p>
+
+        </div>
+    <div class="column2"> 
+        <h2 class="titles">Web Development Bootcamp | Udemy</h2> 
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>ACTUALMENTE</p>
+</div>
+
+    <div class="column3"> 
+        <h2 class="titles">Educación Secundaria | Liceo Departamental</h2> 
+        <ul>
+            <li>Orientación vocacional</li>
+            <li>Desarrollo profesional</li>
+            <li>Liderazgo</li>
+        </ul>
+        <p>2019 - 2022</p>
+    </div>
+</div>
+
+</div>
+
+   
+<div>
+      <form action="file:///C:/Users/Admin.DESKTOP-HT5Q6EV/Desktop/Desarrollo%20Web/Mi%20Portafolio/index.html" method="post" onsubmit="mostrarVentanaEmergente()">
+        <h1 id="formulario">Contacto</h1>
+        <p>Dime cómo puedo ayudarte.</p>
+        <p class="textos">Nombre <br>
+            <input type="text" id="fname" name="fname" required></p>
+        <p class="textos">Apellido <br>
+            <input type="text" id="lname" name="lname" required></p>
+            <br>
+        <p class="textos">¿Por qué quieres contactarme? <br>
+            <label for="tema" required></label>
+            <select name="tema" id="tema">
+              <option value="tema">Elige un tema</option>
+              <option value="consulta">Consulta</option>
+              <option value="propuesta">Propuesta</option>
+              <option value="reporte">Reporte</option>
+              <option value="otro">Otro</option>
+            </select>
+         </p>
+        <p class="textos">Asunto <br>
+            <input type="text" id="text" name="text" required>
+            <br>
+        </p>
+        <p class="textos">Mensaje <br>
+            <textarea name="textarea" rows="10" cols="50" id="cuerpo" placeholder="Me gustaría contactarte porque..."></textarea> <br>
+            <input type="submit" value="Enviar" class="botones"></input>
+        </p>
+       </form>
+    </div>
+</body>
+</html>
